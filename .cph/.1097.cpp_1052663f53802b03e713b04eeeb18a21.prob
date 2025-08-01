@@ -1,0 +1,1 @@
+{"name":"Local: 1097","url":"/home/biu/workspace/cses/1097.cpp","tests":[{"id":1753861997334,"input":"4\n4 5 1 3","output":"8"},{"id":1753862282226,"input":"10\n-5 5 9 -4 10 -9 0 3 2 -6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/biu/workspace/cses/1097.cpp","group":"local","local":true}
