@@ -20,7 +20,6 @@ int main() {_
             }
         }
     }
-
     
     cout << dp[x];
     return 0;
