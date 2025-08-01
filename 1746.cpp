@@ -5,26 +5,16 @@ using namespace std;
 
 // https://cses.fi/problemset/task/1746
 int main() {_
-    int n; cin >> n;
-    int ans = 0;
+    int n, m; cin >> n >> m;
     vector<int> arr(n);
-    vector<int> dp(100001, 0);
-    dp[0] = 1;
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
+
+    vector<vector<int>> dp(n, {0, 0});
     for (int i = 0; i < n; i++) {
-        for (int j = 100000; j >= arr[i]; j--) {
-            if (!dp[j] && dp[j - arr[i]] > 0) {
-                ans++;
-                dp[j] = 1;
-            }
-        }
-    }
-    cout << ans << '\n';
-    for (int i = 1; i <= 100000; i++) {
-        if (dp[i]) {
-            cout << i << ' ';
+        if (arr[i] == 0) {
+             
         }
     }
     return 0;

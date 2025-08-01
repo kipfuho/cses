@@ -1,0 +1,1 @@
+{"name":"Local: 1639","url":"/home/biu/workspace/cses/1639.cpp","tests":[{"id":1754031684975,"input":"LOVE\nMOVIE","output":"2"},{"id":1754031725598,"input":"NGPYCNPO\nUQPXWVLGHC","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/biu/workspace/cses/1639.cpp","group":"local","local":true}
