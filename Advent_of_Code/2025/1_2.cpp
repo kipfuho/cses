@@ -5,7 +5,7 @@ using namespace std;
 
 // https://adventofcode.com/2025/day/1
 int main() {_
-    // freopen("input.txt", "r", stdin);
+    // freopen("1_input.txt", "r", stdin);
     int cur = 50, res = 0;
     string s;
     while (cin >> s) {
